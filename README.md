@@ -5,15 +5,16 @@
    <span><img src="https://img.shields.io/badge/CSS3-282C34?logo=css3" alt="CSS3 logo" title="CSS3" height="25" /></span>&nbsp;&nbsp;
    <span><img src="https://img.shields.io/badge/Nodejs-282C34?logo=nodedotjs" alt="Nodejs logo" title="Nodejs" height="25" /></span>&nbsp;&nbsp;
    <span><img src="https://img.shields.io/badge/mongoDB-282C34?logo=mongodb" alt="P5js logo" title="P5js" height="25" /></span>&nbsp;&nbsp;
-  
-
-  </div>  
-<p>
+</div>
+<hr>
+   
+<p> 
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img alt="Issues" src="https://img.shields.io/github/issues/user2695/e-commerce" />
   <img alt="Forks" src="https://img.shields.io/github/forks/user2695/e-commerce" />
-   <img alt="Stars" src="https://img.shields.io/github/stars/user2695/e-commerce" />
-</p>  
+   <img alt="Stars" src="https://img.shields.io/github/stars/user2695/e-commerce" />  
+</p>
+
 <p>
 <img alt="node" src="https://img.shields.io/npm/v/node?color=blue&label=node" />
    <img alt="ejs" src="https://img.shields.io/npm/v/ejs?color=red&label=ejs" />
@@ -29,7 +30,7 @@ npm install
 ```
   
   
- ## Technologies/Languages
+ ## Technologies/Languages:
 
 > javascript  
 > nodejs   
