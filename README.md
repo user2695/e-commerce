@@ -5,8 +5,7 @@
    <span><img src="https://img.shields.io/badge/CSS3-282C34?logo=css3" alt="CSS3 logo" title="CSS3" height="25" /></span>&nbsp;&nbsp;
    <span><img src="https://img.shields.io/badge/Nodejs-282C34?logo=nodedotjs" alt="Nodejs logo" title="Nodejs" height="25" /></span>&nbsp;&nbsp;
    <span><img src="https://img.shields.io/badge/mongoDB-282C34?logo=mongodb" alt="P5js logo" title="P5js" height="25" /></span>&nbsp;&nbsp;
-</div>
-
+</div>  
    
 <p> 
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
