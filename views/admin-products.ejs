@@ -1,0 +1,30 @@
+<%- include('./partials/header') %>
+
+
+<% if(prods.length>0){ %>
+<% for (let product of prods){ %>
+<main class="card">
+    <header>
+        <h1><%= product.title %></h1>
+    </header>
+    <hr>
+    <img src="<%= product.imageUrl %>" alt="product.title">
+    <br>
+    <h2>Rs: <%= product.price %>
+    </h2>
+    <hr>
+    <p><%= product.description %>
+        <a href="/edit-product/<%= product._id %>?edit=true" class="btn">Edit</a> 
+        <form action='/delete-product' method="POST">
+            <button type="hidden" value="<%= product._id %>" name="productId" type="submit">Delete</button>
+        </form>
+    </p>
+    
+</main>
+<% } %>
+<% }else{ %>
+<h1>No products found</h1>
+<% } %>
+
+
+<%- include('./partials/footer') %>
