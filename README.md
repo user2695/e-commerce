@@ -6,7 +6,7 @@
    <span><img src="https://img.shields.io/badge/Nodejs-282C34?logo=nodedotjs" alt="Nodejs logo" title="Nodejs" height="25" /></span>&nbsp;&nbsp;
    <span><img src="https://img.shields.io/badge/mongoDB-282C34?logo=mongodb" alt="P5js logo" title="P5js" height="25" /></span>&nbsp;&nbsp;
 </div>
-<hr>
+
    
 <p> 
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -21,6 +21,9 @@
    <img alt="mongoose" src="https://img.shields.io/npm/v/mongoose?color=yellow&label=mongoose" />
    <img alt="express" src="https://img.shields.io/npm/v/express?color=orange&label=express" />
 </p>
+
+## Description
+This is an e-commerce app with full crud functionalities like create, read, update and delete. This project is built with javscript using nodejs for backend and ejs templating engine as a front end technology. Please feel free to use it.
 
 ## Usage
 > If you want to use this project on your machine, clone it and then type the below command: 
