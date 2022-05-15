@@ -1,0 +1,19 @@
+<%- include('./partials/header') %>
+
+<main>
+    <form action="/signup" method="post">
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <button type="submit">Signup</button>
+        </div>
+    </form>
+</main>
+
+<%- include('./partials/footer') %>
