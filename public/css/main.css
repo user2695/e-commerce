@@ -7,12 +7,13 @@ ul {
   text-align: center;
 }
 
+
 li {
   float: left;
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -96,43 +97,67 @@ li a:hover {
 
 /* card */
 .card {
-  display: inline-block;
-  background-color: #e3b782;
-  width: 330px;
-  height:460px ;
-  text-align: center;
-  margin: 13px 5px;
-  border-radius: 7px;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D7A86E;
+  float: left;
+  margin: 5% 11%;
+  border-radius: 15px;
 }
-.card img{
+
+.card img {
   width: 330px;
   height: 220px;
- 
+
 }
-.head{
+
+.head {
   text-align: center;
   text-decoration: underline;
 }
 
-.icon{
+.icon {
   display: inline-block;
-  margin-left: 853px;
+  margin-left: 60%;
 }
 
-.details{
+.details {
   display: flex;
   align-items: center;
-  flex-direction: column;  
-  margin: 20px 35px;  
-  background-color:whitesmoke;
+  flex-direction: column;
+  margin: 20px 35px;
+  background-color: whitesmoke;
 }
-.details-image{
+
+.details-image {
   height: 300px;
   width: 400px;
 }
 
+.logout-btn {
+  margin: 10px;
+}
 
+.right-nav {
+  display: inline-block;
+  margin-left: 82%;
+
+}
+
+.right-nav-signup {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.login-form {
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
 
 
 
@@ -141,5 +166,16 @@ li a:hover {
   .icon {
     display: inline-block;
     margin-left: 10px;
+  }
+
+  .right-nav {
+    display: inline-block;
+    margin-left: 39%;
+  }
+
+  .right-nav-signup {
+    display: inline-block;
+    margin-left: 37%;
+    padding: 0px 4px;
   }
 }

@@ -42,6 +42,7 @@ app.use(authRoutes);
 app.use(errorController.get404);
 
 
+
 app.listen(3000, function () {
     console.log("Listening on: 3000");
 });

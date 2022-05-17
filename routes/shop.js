@@ -12,6 +12,7 @@ router.post('/add-product',isAuth, productsController.postAddProduct);
 router.get('/products/:productId', productsController.getProduct);
 router.get('/products', productsController.getProducts);
 router.get('/cart',isAuth, homeController.getCart);
+router.get('/details',isAuth, productsController.getDetails);
 
 
 module.exports = router;

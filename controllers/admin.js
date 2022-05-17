@@ -14,6 +14,7 @@ exports.getEditProduct = function (req, res) {
             res.render('edit-product', {
                 editing: editMode,
                 product: product,
+                isAuthenticated: req.session.isLoggedIn,
             });
 
         })

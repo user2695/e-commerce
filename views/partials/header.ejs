@@ -13,9 +13,8 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li><a href="/">Shop</a></li>
                 <li><a href="/products">Products</a></li>
 
 
@@ -23,21 +22,21 @@
                 <li><a href="/add-product">Add Product</a></li>
                 <li><a href="/admin-products">Admin Products</a></li>
                 <li class="icon"><a href="/cart"><i class='fa fa-shopping-cart'></i></a></li>
-               
+
                 <% } %>
 
-
                 <% if(!isAuthenticated){ %>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/signup">Signup</a>
-                </li>
-
+                
+                    <li class="right-nav"><a href="/login">Login</a></li>
+                    <li class="right-nav-signup"><a href="/signup">Signup</a></li>
+                
                 <% } else {%>
                 <li>
                     <form action="/logout" method="post">
-                        <button type="submit">Logout</button>
+                        <input class="logout-btn" type="submit" value="Logout">
                     </form>
                 </li>
+
                 <% } %>
 
             </ul>

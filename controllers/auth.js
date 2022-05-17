@@ -3,13 +3,13 @@ const User = require('../models/user');
 
 exports.getLogin = function (req, res) {
     res.render('login', {
-        isAuthenticated: false
+        isAuthenticated: req.session.isLoggedIn,
     });
 }
 
 exports.getSignup = function (req, res) {
     res.render('signup', {
-        isAuthenticated: false
+        isAuthenticated: req.session.isLoggedIn,
     })
 }
 
@@ -31,21 +31,21 @@ exports.postLogin = function (req, res) {
                         req.session.user = user;
                         return req.session.save(err => {
                             console.log(err);
-                            res.redirect('/');
+                            res.render('shop', {
+                                isAuthenticated: req.session.isLoggedIn,
+                            });
                         });
                     }
                     res.redirect('/login');
                 });
         })
-        .catch(err => console.log(err));
+        .catch(err => {console.log(err)});
 }
 
 exports.postLogout = function (req, res) {
     req.session.destroy(err => {
         console.log(err);
-        res.render('shop', {
-            isAuthenticated: false
-        })
+        res.redirect('/');
     })
 }
 

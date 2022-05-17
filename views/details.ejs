@@ -6,7 +6,9 @@
     <b>Rs: <%= product.price %></b>
     <p><%= product.description %></p>
     <% if(isAuthenticated){ %> 
-    <button type="submit">Add to cart</button>
+    <form action="/cart" method="post">
+            <input class="logout-btn" type="submit" value="Add to Cart">
+    </form>
     <% } %> 
 </main>
 

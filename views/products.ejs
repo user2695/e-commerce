@@ -11,9 +11,11 @@
     <img src="<%= product.imageUrl %>" alt="product.title">
     <br>
     <h2>Rs: <%= product.price %>
-        <button><a href="products/<%=product._id%>">Details</a></button>
-        </h2>
-    <hr>
+        <!-- <form action="/details" method="post">
+            <input class="logout-btn" type="submit" value="Details">
+        </form> -->
+        <a href="/products/<%= product._id %> ">details</a>
+    </h2>
     <p><%= product.description %></p>
 </main>
 <% } %>
