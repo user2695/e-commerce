@@ -35,7 +35,7 @@ exports.postAddProduct = function (req, res) {
 exports.getProducts = function (req, res) {
   Product.find()
     .then((products) => {
-      res.render("products", {
+      res.render("/", {
         isAuthenticated: req.session.isLoggedIn,
         prods: products,
       });

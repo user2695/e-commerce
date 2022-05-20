@@ -5,11 +5,8 @@
     <img src="<%= product.imageUrl %>" class="details-image" alt="product.title">
     <b>Rs: <%= product.price %></b>
     <p><%= product.description %></p>
-    <% if(isAuthenticated){ %> 
-    <form action="/cart" method="post">
-            <input class="logout-btn" type="submit" value="Add to Cart">
-    </form>
-    <% } %> 
+    <% if(isAuthenticated){ %>
+    <% } %>
 </main>
 
 <%- include('./partials/footer') %>

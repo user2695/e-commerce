@@ -50,7 +50,7 @@ exports.postDeleteProduct = function (req, res) {
     Product.findByIdAndRemove(prodId)
         .then(() => {
             console.log("Deleted Product");
-            res.redirect('/products')
+            res.redirect('/')
         })
         .catch(err => console.log(err));
 };
