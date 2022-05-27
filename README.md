@@ -47,4 +47,4 @@ npm install
 
 ## End
 
-Please give it a ⭐️ if it helps you!
+Please give it a ⭐️ if this helps you!
