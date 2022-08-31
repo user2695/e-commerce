@@ -35,7 +35,7 @@ npm install
   
  ## Technologies/Languages:
 
-> javascript  
+> Javascript  
 > nodejs   
 > ejs  
 > css  
